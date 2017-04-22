@@ -6,9 +6,6 @@
 #include "sstream"
 using namespace std;
 
-int stack[10000];
-int si = 0;
-
 struct Stack {
 	double *_array;
 	int n, i;
